@@ -55,7 +55,7 @@ export default class MainContainer extends Component {
         return (
             <div className='mainContainer'>
             <h1>Quick Weather</h1>
-            <form onSubmit={this.fetchWeather}><input name='city' autoFocus placeholder="City Name Here, e.g. `London`" onChange={this.handleChange} value={this.state.city}></input><button type='submit' name='submit'>Submit</button></form>
+            <form onSubmit={this.fetchWeather}><input name='city' placeholder="City Name Here, e.g. `London`" onChange={this.handleChange} value={this.state.city}></input><button type='submit' name='submit'>Submit</button></form>
                 <h2><b>{this.state.cityTitle}</b></h2>
                 <p>{this.state.country}</p>
                 {/* <p>{this.state.dateTime}</p> */}
