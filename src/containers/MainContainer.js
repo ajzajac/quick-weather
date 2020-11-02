@@ -58,7 +58,6 @@ export default class MainContainer extends Component {
             <form onSubmit={this.fetchWeather}><input name='city' placeholder="City Name Here, e.g. `London`" onChange={this.handleChange} value={this.state.city}></input><button type='submit' name='submit'>Submit</button></form>
                 <h2><b>{this.state.cityTitle}</b></h2>
                 <p>{this.state.country}</p>
-                {/* <p>{this.state.dateTime}</p> */}
                 {this.state.cityTitle ? <Details {...this.state}/> : null}
             </div>
         )
