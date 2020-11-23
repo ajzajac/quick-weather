@@ -7,3 +7,5 @@ Users can search any city and will be presented with current temperature, high a
 Made with React and JavaScript.
 
 Consumes Open Weather API for weather data.
+
+Created with Create-React-App
